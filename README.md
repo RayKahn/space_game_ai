@@ -4,6 +4,11 @@ A space shooter game built with p5.js. Defend the galaxy from invading enemies, 
 
 "design a p5js implementation of a space shooting game. It must be extremely polished and I want you to build all the sprites and assets yourself.  I don't want to import any assets."
 
+Additional prompt improved the game with the addition of `esc` command:
+
+"refactor the game and add an esc feature to terminte an existing game and take the user back to the prompt screen of the game. Make sure that you update the landing screen to let the user know about this additional functionality."
+
+
 ## Features
 
 - Mouse-controlled spaceship
