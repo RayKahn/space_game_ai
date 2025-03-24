@@ -44,11 +44,58 @@ Additional prompt improved the game with the addition of `esc` command:
 - JavaScript
 - HTML5 Canvas
 
-## Setup
+## Local Setup Instructions
 
-1. Clone this repository
-2. Open `index.html` in your web browser
-3. Enjoy the game!
+### Prerequisites
+- A modern web browser (Chrome, Firefox, Safari, or Edge)
+- Git (for cloning the repository)
+
+### Step-by-Step Setup
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/RayKahn/space_game_ai.git
+   cd space_game_ai
+   ```
+
+2. **Running the Game**
+   There are several ways to run the game locally:
+
+   #### Method 1: Using Python's built-in server (Recommended)
+   ```bash
+   # If you have Python 3 installed:
+   python3 -m http.server 8000
+   
+   # If you have Python 2 installed:
+   python -m SimpleHTTPServer 8000
+   ```
+   Then open your browser and go to: `http://localhost:8000`
+
+   #### Method 2: Using Node.js http-server
+   ```bash
+   # Install http-server globally (if you have Node.js installed)
+   npm install -g http-server
+   
+   # Run the server
+   http-server
+   ```
+   Then open your browser and go to: `http://localhost:8080`
+
+   #### Method 3: Direct file opening
+   Simply double-click the `index.html` file in your file explorer to open it in your default browser.
+   Note: Some browsers might have security restrictions that prevent the game from working properly when opened directly.
+
+### Troubleshooting
+
+If you encounter any issues:
+
+1. Make sure you're using a modern web browser
+2. Check that all files are present in the repository:
+   - `index.html`
+   - `sketch.js`
+   - `style.css`
+3. If using Method 1 or 2, ensure no other application is using port 8000 or 8080
+4. If the game doesn't load, try clearing your browser cache and refreshing the page
 
 ## License
 
