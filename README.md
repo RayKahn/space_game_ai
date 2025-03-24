@@ -1,6 +1,8 @@
 # Cosmic Defender
 
-A space shooter game built with p5.js. Defend the galaxy from invading enemies, collect power-ups, and try to achieve the highest score!
+A space shooter game built with p5.js. Defend the galaxy from invading enemies, collect power-ups, and try to achieve the highest score! This game was generated using the following prompt to `Claude-3.7-Sonnet`:
+
+"design a p5js implementation of a space shooting game. It must be extremely polished and I want you to build all the sprites and assets yourself.  I don't want to import any assets."
 
 ## Features
 
